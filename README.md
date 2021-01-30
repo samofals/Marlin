@@ -1,3 +1,20 @@
+# Customizations for my printer
+
+  - Ender 3 Pro
+  - BL-Touch Replica / Current Z offset: M851 Z-0.82
+    - `#define NOZZLE_TO_PROBE_OFFSET { -40, -12, -0.82 }`
+  - Direct Drive adjustment / Extruder ratio
+  - BTT SKR 1.4 Turbo
+  - BTT 3.5" E3 Screen
+  - TMC2209 Drivers + Sensorless homing
+
+  - Configs blended:
+    - Baseline: Ender-3 Pro/CrealityV1
+    - Addition: Ender-5/BigTreeTech SKR 1.4 Turbo (TMC2209)
+    - Addition: Ender-5 Pro/BigTreeTech SKR E3 Turbo with BLTouch
+
+
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
