@@ -1,12 +1,13 @@
 # Customizations for my printer
 
   - Ender 3 Pro
+    - Feedrates: `M92 X80.00 Y80.00 Z400.00 E100.00`
   - BL-Touch Replica / Current Z offset: M851 Z-0.82
     - `#define NOZZLE_TO_PROBE_OFFSET { -40, -12, -0.82 }`
-  - Direct Drive adjustment / Extruder ratio
   - BTT SKR 1.4 Turbo
-  - BTT 3.5" E3 Screen
-  - TMC2209 Drivers + Sensorless homing
+  - Direct Drive
+  - TMC2209 Drivers (Sensorless homing disabled)
+  - ??? BTT 3.5" E3 Screen
 
   - Configs blended:
     - Baseline: Ender-3 Pro/CrealityV1
